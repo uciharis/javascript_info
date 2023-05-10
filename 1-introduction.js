@@ -29,7 +29,7 @@ dan lain sebagainya seperti chakra, nitro, squirrelfish dll.
  */
 
 
-// Apa yang dapat JS di browser lakukan ?
+// Apa yang DAPAT JS di-browser lakukan ?
 
 /* JS modern adalah bahasa pemrograman yang "safe". JS tidak menyediakan akses low level ke memori atau cpu,
 karena hal tsb sudah diatur di dalam browser shg kita tidak perlu lagi melakukannya.
@@ -45,5 +45,27 @@ sehingga, JS dalam broser dapat melakukan :
 - mengirim permintaan jaringan ke server luar, download dan upload file (disebut AJAX dan COMET teknologi)
 - mendapat dan men-set cookies, bertanya pada visitor, menunjukkan pesan
 - mengingat data di sisi klien (local storage)
+
+*/
+
+// Apa yang TIDAK DAPAT js di-browser lakukan ?
+
+/* kemampuan JS di browser dibatasi utk melindungi keamanan user. tujuannya utk mencegah evil webpage
+mengakses informasi pribadi atau merugikan data user.
+
+contoh dari batasan tsb adalah :
+
+- JS di dalam halaman web tidak dapat membaca/ menulis di hard disk, meng-copy atau eksekusi program, dan
+JS di-browser tidak punya akses langsung ke fungsi OS.
+browser modern mengijinkan utk bekerja dengan files namun aksesnya terbatas dan hanya tersedia jika user menyetujui,
+seperti "dropping" files ke dalam jendela browser atau bekerja dengan file via <input> tag.
+
+ada banyak cara utk berinteraksi dengan kamera/ mikropon dan di peralatan yang lain, tetapi hal tersebut
+memerlukan ijin user yang jelas. sehingga halaman yg mengaktifkan js tidak boleh diam-diam mengaktifkan kamera, 
+mengamati sekeliling atau mengirimkan info ke NSA.
+
+- Tabs atau jendela yang berbeda secara umum tidak mengetahui satu sama lain. terkadang mereka tahu, sebagai contoh
+ketika 1 jendela menggunakan JS utk membuka jendela yang lain. bahkan di kasus ini, JS dari 1 halaman tidak bisa
+akses halaman lain jika mereka datang dari situs yang berbeda (dari domain berbeda, protokol atau port)
 
 */
