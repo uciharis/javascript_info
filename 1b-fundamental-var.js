@@ -7,7 +7,7 @@ tong = 400; // True
 // let tong = 399; // false bcoz redeclare tong
 
 // var adalah keyword sama dg let
-// var adalah bentuk old
+// var adalah bentuk old- legacy way. leave it
 
 // variable naming
 
@@ -24,6 +24,10 @@ console.log(_);
 
 // asignment using reserved words
 // let let = 30;
+// wrong brooooo
+// let return = 12;
+// console.log(return);
+// output : unexpected strict mode reserved word "return"
 
 // numm = 5; // able not asignment using let in old time, but unable if used in strict mode
 // console.log(numm); //referenceError
@@ -41,3 +45,7 @@ console.log(colorku);
 const KONST = 19.35;
 // KONST = 20; redeclaring is forbidden for const
 console.log(KONST);
+
+// actually constants used for aliases the hard-coded value
+// daripada pakai value #F00, mending simpan value tsb ke COLOR_RED
+// untuk menghindari misstype saat memanggil berulang-ulang.
