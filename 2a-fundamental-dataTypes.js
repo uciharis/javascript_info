@@ -89,6 +89,15 @@ console.log('tipe 99 :', typeof(99));
 console.log('tipe 10n :', typeof(10n));
 console.log('tipe true :', typeof(true));
 console.log('tipe \'halo\' :', typeof('halo'));
-console.log('tipe Math :', typeof(Math));
-console.log('tipe null :', typeof(null)); // wtf null adalah object
-console.log('tipe console', typeof(console));
+console.log('tipe Math :', typeof(Math)); // math adalah built-in objek utk operasi matematika
+console.log('tipe null :', typeof(null)); // wtf null adalah object. ini anomali di JS utk kompatibilitas saja
+console.log('tipe console:', typeof(console));
+console.log('tipe alert:', typeof(alert));
+console.log(typeof(alert));
+
+// nb : typeof isnot a function but operator
+// kita bs pakai typeof : typeof string
+console.log(typeof 'hahay');
+// dan juga typeof(string)
+
+// -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - //

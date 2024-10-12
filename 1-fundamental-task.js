@@ -19,3 +19,14 @@ function someCode(value){
     let age = (today-tanggal)/KONVERTER;
     return Math.floor(age);
 }
+
+// Task 3 data type
+let nama = 'jokontowl';
+// alert(`helo ${1}`); // gak work running di terminal karna alert itu fungsi di browser
+// output : helo 1 // harus run di browser lewat console atau diembed ke html
+
+// alert(`helo ${'nama'}`);
+// output : helo nama
+
+// alert(`helo ${nama}`);
+// output : halo jokontowl
