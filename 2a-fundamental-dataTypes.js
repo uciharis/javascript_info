@@ -41,7 +41,34 @@ let namaUser = "joekoe"; // double quotes
 let namaOrang = 'koejoe'; // single quotes
 console.log(namaUser, namaOrang); // double n single quotes have no difference in output console
 console.log(`mereka adalah ${namaUser} dan ${namaOrang}`); // backtick for template literal
+console.log(`contoh arithmetical expression ${300+99}`); // backtick bs diisi oprasi mat
 
 // -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - //
 
 // d. Boolean
+
+// instance boolean true false
+let isChecked = false;
+console.log(isChecked);
+
+// atau hasil komparasi
+let isBesar = 4<1;
+console.log('4 < 1 :', isBesar);
+
+
+// -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - //
+
+// e. null and undefined
+
+// nilai null : refers to nothing,empty,unknown
+let nilaiNull = null;
+console.log(nilaiNull);
+
+// nilai undefined : means value isnt assigned
+// juga berlaku untuk variabel yang di-declare tapi tidak diberi nilai
+let nilaiUndefined;
+console.log(nilaiUndefined);
+console.log(null == undefined); // wtf
+console.log(null === undefined); //wtf
+
+// -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - //
