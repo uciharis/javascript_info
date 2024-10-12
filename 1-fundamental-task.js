@@ -20,7 +20,7 @@ function someCode(value){
     return Math.floor(age);
 }
 
-// Task 3 data type
+// Task 3 : data type
 let nama = 'jokontowl';
 // alert(`helo ${1}`); // gak work running di terminal karna alert itu fungsi di browser
 // output : helo 1 // harus run di browser lewat console atau diembed ke html
@@ -30,3 +30,12 @@ let nama = 'jokontowl';
 
 // alert(`helo ${nama}`);
 // output : halo jokontowl
+
+
+// task 4 : interaksi
+/*
+
+let yourName = prompt('What is your name :');
+confirm(yourName);
+
+*/
