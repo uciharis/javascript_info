@@ -11,6 +11,8 @@ console.log(infini); // output : infinity
 //NaN represent computational error and it is sticky no matter-
 // what you do math operation
 console.log("not number" / 2); // output : NaN
+console.log('NaN + 1 =', NaN + 1);
+console.log('pengecualian : NaN ** 0 =', NaN ** 0);
 
 // -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - //
 
@@ -20,6 +22,8 @@ console.log("not number" / 2); // output : NaN
 // when number cant represent values larger than 2^53 -1
 // we need store larger
 // check this anomaly :
+let batasInt = (2**53)-1
+console.log('batas int', batasInt);
 console.log(9007199254740991 + 1); // 9007199254740992
 console.log(9007199254740991 + 2); // 9007199254740992
 console.log(9007199254740991 + 100); // 9007199254740992
