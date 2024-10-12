@@ -1,5 +1,7 @@
 'use strict'
 // 8 basic Data Type
+// tipe data disebut 'primitive', karena nilainya hanya berisi 1 jenis
+// tidak dengan object yang simpan data beragam
 
 // a. number
 let n = 123;
@@ -72,3 +74,21 @@ console.log(null == undefined); // wtf
 console.log(null === undefined); //wtf
 
 // -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - //
+
+// f. object dan simbol
+
+// dibahas soon
+
+
+// -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - //
+
+// g. tipe operator (typeof)
+// sebuah operator yang mengembalikan tipe suatu operand.
+console.log('tipe undefined :', typeof(undefined));
+console.log('tipe 99 :', typeof(99));
+console.log('tipe 10n :', typeof(10n));
+console.log('tipe true :', typeof(true));
+console.log('tipe \'halo\' :', typeof('halo'));
+console.log('tipe Math :', typeof(Math));
+console.log('tipe null :', typeof(null)); // wtf null adalah object
+console.log('tipe console', typeof(console));
